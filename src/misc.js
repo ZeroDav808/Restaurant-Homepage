@@ -1,0 +1,1 @@
+export const str = "Hello, world, ya feel meh";
