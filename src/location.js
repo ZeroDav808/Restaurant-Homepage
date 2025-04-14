@@ -1,9 +1,8 @@
-export function homeInfo(){
+export function locationInfo() {
     const container = document.querySelector('#content');
 
     const para = document.createElement('p');
-    para.classList.add('home-info');
-    para.textContent = "Hard Eight BBQ";
+    para.classList.add('location-info');
+    para.textContent = "1234 Maple Drive, CandyLand";
     container.appendChild(para);
-
 }
